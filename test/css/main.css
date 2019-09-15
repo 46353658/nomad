@@ -217,7 +217,7 @@ a, a:hover {
 .homepage-about-us {
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #569c95;
 }
 
 .homepage-about-us-bg {
@@ -237,6 +237,37 @@ a, a:hover {
 }
 
 .homepage-about-us-description {
+  max-width: 50em;
+  margin: 0 auto 2.8rem;
+}
+
+/* 
+ * FRANCHISE-ABOUT-US
+ */
+
+ .franchise-about-us {
+  overflow: hidden;
+  position: relative;
+  background-color: #569c95;
+}
+
+.franchise-about-us-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.franchise-about-us-caption {
+  text-align: center;
+  position: relative;
+  margin: 8rem 1rem;
+  z-index: 1;
+}
+
+.franchise-about-us-description {
   max-width: 50em;
   margin: 0 auto 2.8rem;
 }
@@ -313,7 +344,7 @@ a, a:hover {
   padding-top: 4rem;
   font-size: 0.75rem;
   text-align: center;
-  background: #001F40;
+  background: #000;
   line-height: 1.75;
 }
 
@@ -339,7 +370,7 @@ a, a:hover {
 .page-footer-copyright {
   position: relative;
   z-index: 2;
-  background: #003D7F;
+  background: #6e7570;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
