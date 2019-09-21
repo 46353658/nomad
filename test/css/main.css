@@ -10,7 +10,8 @@ body {
   font-size: 1rem;
   color: #404040;
   line-height: 1.75;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
   padding-top: 62px;
 }
@@ -43,11 +44,13 @@ label {
   background-color: #007bff !important;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 0 !important;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: inherit;
 }
 
@@ -82,13 +85,13 @@ a, a:hover {
  */
 
 .special-title-1 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .special-title-2 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   margin-bottom: 2.8rem;
   font-size: 2.8rem;
 }
@@ -106,13 +109,14 @@ a, a:hover {
   border: 1px solid #003166;
   text-align: center;
   color: #fff;
-  background: #003D7F;
+  background: #003d7f;
   border-radius: 4px;
-  box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.banner::before, .banner::after {
-  content: '';
+.banner::before,
+.banner::after {
+  content: "";
   position: absolute;
   z-index: -1;
   left: -37px;
@@ -120,7 +124,7 @@ a, a:hover {
   display: block;
   width: 60px;
   height: 0px;
-  border: 30px solid #003D7F;
+  border: 30px solid #003d7f;
   border-right: 20px solid #001933;
   border-bottom-color: #003166;
   border-left-color: transparent;
@@ -136,7 +140,7 @@ a, a:hover {
 }
 
 .box-shadow {
-  box-shadow: 0 0.28rem 0.78rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.28rem 0.78rem rgba(0, 0, 0, 0.05);
 }
 
 /*
@@ -144,10 +148,11 @@ a, a:hover {
  */
 
 .navbar {
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-.nav-link, .dropdown-item {
+.nav-link,
+.dropdown-item {
   font-weight: 700;
 }
 
@@ -155,7 +160,7 @@ a, a:hover {
  * COVER
  */
 
- .cover .carousel-item > img {
+.cover .carousel-item > img {
   min-width: 100%;
   height: calc(100vh - 62px);
   object-fit: cover;
@@ -173,7 +178,7 @@ a, a:hover {
 }
 
 .dark-overlay::after {
-  content: ' ';
+  content: " ";
   width: 100%;
   height: 100%;
   background: #000;
@@ -184,14 +189,14 @@ a, a:hover {
 }
 
 .brand-title {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   /* font size = min font size + (max font size - min font size) * (100vw - min viewport size) / (max viewport size - min viewport size) */
-  font-size: calc(50px + (120 - 50) * (100vw - 320px)/(2560 - 320));
+  font-size: calc(50px + (120 - 50) * (100vw - 320px) / (2560 - 320));
 }
 
 .brand-description {
   /* font size = min font size + (max font size - min font size) * (100vw - min viewport size) / (max viewport size - min viewport size) */
-  font-size: calc(16px + (40 - 16) * (100vw - 320px)/(2560 - 320));
+  font-size: calc(16px + (40 - 16) * (100vw - 320px) / (2560 - 320));
 }
 
 /*
@@ -206,7 +211,8 @@ a, a:hover {
   margin-top: 2.8rem;
 }
 
-.homepage-desserts, .homepage-drinks {
+.homepage-desserts,
+.homepage-drinks {
   margin-top: 8rem;
 }
 
@@ -245,10 +251,10 @@ a, a:hover {
  * FRANCHISE-ABOUT-US
  */
 
- .franchise-about-us {
+.franchise-about-us {
   overflow: hidden;
   position: relative;
-  background-color: #569c95;
+  background-color: #277796;
 }
 
 .franchise-about-us-bg {
@@ -281,7 +287,8 @@ a, a:hover {
   padding-bottom: 8rem;
 }
 
-.card-2, .card-3 {
+.card-2,
+.card-3 {
   margin-top: 2.8rem;
 }
 
@@ -298,7 +305,7 @@ a, a:hover {
 .homepage-testimonials {
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
   color: #fff;
 }
 
@@ -339,8 +346,8 @@ a, a:hover {
  * FOOTER
  */
 
-.page-footer {  
-  color: #E5E5E5;
+.page-footer {
+  color: #e5e5e5;
   padding-top: 4rem;
   font-size: 0.75rem;
   text-align: center;
@@ -357,7 +364,7 @@ a, a:hover {
 }
 
 .page-footer-title {
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 1rem;
@@ -402,11 +409,11 @@ a, a:hover {
 .nav-social i {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-social i:hover {
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /*
@@ -441,7 +448,7 @@ a, a:hover {
  * CONTACT SOCIAL
  */
 
- .contact-social {
+.contact-social {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -462,13 +469,13 @@ a, a:hover {
  * ABOUT
  */
 
- .about-jumbotron {
+.about-jumbotron {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .about-jumbotron-bg {
@@ -490,7 +497,7 @@ a, a:hover {
 }
 
 .about-jumbotron h2 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .about-arrow {
@@ -513,14 +520,16 @@ a, a:hover {
   padding-bottom: 8rem;
 }
 
-.about-history-title h3, .about-job-openings-title h3 {
-  font-family: 'Fredericka the Great', cursive;
+.about-history-title h3,
+.about-job-openings-title h3 {
+  font-family: "Fredericka the Great", cursive;
   margin-bottom: 1rem;
   color: #007bff;
   font-size: 1.8rem;
 }
 
-.about-history-title p, .about-job-openings-title p {
+.about-history-title p,
+.about-job-openings-title p {
   font-size: 2.8rem;
 }
 
@@ -548,7 +557,7 @@ a, a:hover {
 .reservations-form {
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
 }
 
 .reservations-form-bg {
@@ -583,12 +592,13 @@ a, a:hover {
   color: white;
 }
 
-.reservations-form input, .reservations-form textarea {
+.reservations-form input,
+.reservations-form textarea {
   background: none !important;
   border: 3px solid white !important;
   color: #d9d9d9 !important;
 }
- 
+
 /* 
  * CONTACT
  */
@@ -612,7 +622,7 @@ a, a:hover {
 .contact-information-wrapper {
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
 }
 
 .contact-information-wrapper-bg {
@@ -635,20 +645,22 @@ a, a:hover {
 }
 
 .contact-form ::placeholder {
-  color: rgba(255, 255, 255, .7) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .contact-form label {
   color: #fff;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   background: none !important;
   border: 3px solid #fff !important;
   color: rgba(255, 255, 255, 1);
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -669,9 +681,9 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .food-jumbotron-bg {
@@ -693,7 +705,7 @@ a, a:hover {
 }
 
 .menu-icon {
-  max-width: 45px; 
+  max-width: 45px;
 }
 
 .menu-icon-text {
@@ -733,9 +745,9 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
-  content: '';
+  content: "";
 }
 
 .food-name {
@@ -766,9 +778,9 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .drinks-jumbotron-bg {
@@ -818,9 +830,9 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
-  content: '';
+  content: "";
 }
 
 .drink-name {
@@ -851,9 +863,9 @@ a, a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: #001F40;
+  background-color: #001f40;
   border-radius: 0%;
-  height:  calc(100vh - 62px);
+  height: calc(100vh - 62px);
 }
 
 .desserts-jumbotron-bg {
@@ -907,9 +919,9 @@ a, a:hover {
   left: 20px;
   right: 20px;
   height: 1px;
-  border-top: 2px dotted rgba(0,0,0,1);
+  border-top: 2px dotted rgba(0, 0, 0, 1);
   display: block;
-  content: '';
+  content: "";
 }
 
 .dessert-name {
@@ -1032,23 +1044,27 @@ a, a:hover {
     display: block;
   }
 }
- 
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .homepage-desserts, .homepage-drinks {
+  .homepage-desserts,
+  .homepage-drinks {
     margin-top: 0;
   }
 
-  .card-2, .card-3 {
+  .card-2,
+  .card-3 {
     margin-top: 0;
   }
 
-  .desserts, .drinks, .contact-details {
+  .desserts,
+  .drinks,
+  .contact-details {
     margin-top: 0;
   }
 
   .menu-icon {
-    max-width: 60px; 
+    max-width: 60px;
   }
 
   .contact-details {
@@ -1064,7 +1080,7 @@ a, a:hover {
   }
 
   .page-footer-title::before {
-    content: '';
+    content: "";
     width: 30px;
     border-top: #007bff;
     border-top-style: solid;
@@ -1074,11 +1090,11 @@ a, a:hover {
   }
 
   .footer-title-h5::before {
-    content: '';
+    content: "";
     display: block;
     width: 30px;
     border-top: 3px solid #007bff;
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
   }
 
   .page-footer .row {
@@ -1089,7 +1105,7 @@ a, a:hover {
   .footer-social:not(:first-child) {
     margin-left: 0.7rem;
   }
-  
+
   .food-image {
     margin-bottom: 0;
   }
@@ -1111,8 +1127,10 @@ a, a:hover {
 }
 
 /* Phones - Landscape Mode */
-@media only screen and (min-width: 560px) and (max-width: 850px) and (orientation: landscape) { 
-  .food-jumbotron h1, .desserts-jumbotron h1, .drinks-jumbotron h1 {
+@media only screen and (min-width: 560px) and (max-width: 850px) and (orientation: landscape) {
+  .food-jumbotron h1,
+  .desserts-jumbotron h1,
+  .drinks-jumbotron h1 {
     margin-bottom: 1rem;
     font-size: 25px;
   }
